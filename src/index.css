@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skillbar-title {
+  
+    background: #ffffff;
+     color: black;
+   
+}
+.skillbar-bar {
+   
+    background:linear-gradient(45deg, #bdffbf, #0f0f0f, #ffffff, #131010);
+    animation: gradientAnimation 10s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.skillbar {
+    
+   
+    transition: 0.1s linear;
+   
+}
+*, ::before, ::after {
+   
+    --tw-scale-x: 0.5;
+    --tw-scale-y: 0.5;
+  
+   
+    
+  
+    
+}
