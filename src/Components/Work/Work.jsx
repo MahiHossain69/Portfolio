@@ -84,11 +84,11 @@ DESIGNER |
 
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-[30px]">
-    <a href="#">
+    <a href="https://neon-gelato-263e64.netlify.app/">
         <img class="rounded-t-lg" src={PROJECT4}  alt="" />
     </a>
     <div class="p-5">
-        <a href="#">
+        <a href="https://neon-gelato-263e64.netlify.app/">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">FINSWEET CONTACT US</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
