@@ -127,7 +127,7 @@ DESIGNER |
 
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-[30px]">
-    <a href="#">
+    <a href=" https://enchanting-flan-ab99dd.netlify.app/">
         <img class="rounded-t-lg" src={PROJECT6}  alt="" />
     </a>
     <div class="p-5">
