@@ -19,8 +19,8 @@ export default {
       },
       keyframes: {
         bounce: {
-          '50%': { transform: 'rotate(0deg)' },
-          '10%': { transform: 'rotate(0deg)' },
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
         },
       },
       

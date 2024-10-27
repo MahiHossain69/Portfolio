@@ -22,7 +22,7 @@ function Banner() {
       <h1 style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: '700',display: 'inline' }}>
       {' '}
         <span className='mt-[30px] text-white font-play'>
-          {/* Style will be inherited from the parent element */}
+         
           <Typewriter
             words={['I like to craft soild and scalable frontend products with great user experiences.']}
             loop={1}
@@ -51,10 +51,21 @@ function Banner() {
 </div>
   </div>
 </div>
-<div className=" mx-auto mt-[60px] w-[25px] h-[40px] border-solid border-2 border-stone-500 rounded-full before:content:{''} before:w-[5px] before:h-[12px] before:absolute before:top-[762px] before:left-[629px] before:translate-x-2/4 before:bg-stone-50 before:rounded-[50%] before:opacity-100 before:animate-bounce before:z-[-1] "></div>
+<div className="relative mt-[55px]">
+<div class="absolute top-[50%] left-1/2 transform -translate-x-1/2">
+  <div class="w-[45px] h-[70px] border-2 border-white rounded-full relative overflow-hidden">
+    <div class="absolute bottom-[20px] left-[18.5px] transform -translate-x-1/2 w-1.5 h-1.5 bg-white rounded-full animate-bounce"></div>
+  </div>
+</div>
+</div>
+
 </section>
 
   )
 }
 
 export default Banner
+
+
+
+

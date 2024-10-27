@@ -9,22 +9,23 @@
    
 }
 .skillbar-bar {
-   
-    background:linear-gradient(45deg, #6d6868, #0f0f0f, #ffffff, #131010) !important;
-    animation: gradientAnimation 10s ease infinite !important;
-    background-size: 400% 400% !important;
+    background: linear-gradient(45deg, #6d6868, #0f0f0f, #ffffff, #131010);
+    animation: gradientAnimation 10s ease infinite;
+    background-size: 400% 400%;
 }
+
 @keyframes gradientAnimation {
     0% {
-        background-position: 0% 50% !important;
+        background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50% !important;
+        background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50% !important;
+        background-position: 0% 50%;
     }
 }
+
 .skillbar {
     
    
