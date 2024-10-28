@@ -4,12 +4,12 @@ import Skillbar from 'react-skillbars';
 
 function Work() {
   const skills = [
-    { type: 'HTML', level: 90 },
-    { type: 'Javascript', level: 40 },
-    { type: 'CSS', level: 95 },
-    { type: 'React', level: 70 },
-    { type: 'Responsive Design', level: 85 },
-    { type: 'Github', level: 65 },
+    { type: 'HTML', level: 99 },
+    { type: 'Javascript', level: 85 },
+    { type: 'CSS', level: 98 },
+    { type: 'React', level: 85 },
+    { type: 'Responsive Design', level: 99 },
+    { type: 'Github', level: 95 },
     
   ];
 
