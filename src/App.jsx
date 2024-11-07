@@ -1,22 +1,28 @@
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Home from "./pages/Home";
+import Layout from "./Components/Layout";
 
-import Banner from "./Components/Banner/Banner"
-import Header from "./Components/Header/Header"
-import Work from "./Components/Work/Work"
-import Skill from "./Components/Skill/Skill"
 
 function App() {
- 
+  let router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route element={<Layout/>}>
+        <Route path="/" element={<Home />}></Route>
+        
+      </Route>
+    )
+  );
 
   return (
-<>
-<Header/>
-<Banner/>
-<Skill/>
-<Work/>
-
-
-</>
-  )
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
-export default App
+export default App;
