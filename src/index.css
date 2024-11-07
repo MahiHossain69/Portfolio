@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --skillBarTextColor: #ffffff;
-    --skillBarBgColor: #eee;
-    --skillBarTitleBgColor: #d35400;
+ 
     --skillBarBg: linear-gradient(45deg, #6d6868, #0f0f0f, #ffffff, #131010) !important;
 }
 

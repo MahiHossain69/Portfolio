@@ -15,7 +15,7 @@ function Work() {
 
   
   return (
-    <section className='mt-[200px]'>
+    <section className='mt-[250px]'>
       <div className="max-w-container mx-auto">
         <div className=" h-[1px] bg-[#fff] border-b border-white border-b-1 mb-[3.2rem] relative">
           <h3 className='bg-black absolute top-[-17px] left-[50%] ml-[-165px] w-[325px] text-center block text-[#ffffff] text-[1.4rem] font-normal p-0'>SOME OF MY SKILLS</h3>

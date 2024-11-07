@@ -58,6 +58,11 @@ function Banner() {
   </div>
 </div>
 </div>
+<div className="max-w-container mx-auto">
+  <div className=" w-[150px] h-[30px] text-center bg-black border-[1px] border-white text-white mt-[-150px]  rounded-full pt-[1px]">
+    <button className='font-bold'><a href=''>Download CV</a></button>
+  </div>
+</div>
 
 </section>
 
