@@ -15,6 +15,7 @@ function Header() {
     
   </a>
   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+    
   <ScrollIntoView selector="#work">
       <button type="button" class="text-white bg-green-400  hover:bg-blue-800 ease-in-out duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 pt-[10px] pb-[12px] text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" ><Link to="/">Projects</Link></button>\
       </ScrollIntoView>
@@ -35,12 +36,16 @@ function Header() {
         <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 ease-in-out duration-300 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
       </li>
       </ScrollIntoView>
+      <ScrollIntoView selector="#service">
       <li>
         <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 ease-in-out duration-300 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
       </li>
+      </ScrollIntoView>
+      <ScrollIntoView selector="#contact">
       <li>
         <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 ease-in-out duration-300 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
       </li>
+      </ScrollIntoView>
     </ul>
   </div>
   </div>
