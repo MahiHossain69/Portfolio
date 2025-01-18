@@ -5,11 +5,11 @@ import Skillbar from 'react-skillbars';
 function Work() {
   const skills = [
     { type: 'HTML', level: 99 },
-    { type: 'Javascript', level: 85 },
+    { type: 'Javascript', level: 95 },
     { type: 'CSS', level: 98 },
-    { type: 'React', level: 85 },
+    { type: 'React', level: 97 },
     { type: 'Responsive Design', level: 99 },
-    { type: 'Github', level: 95 },
+    { type: 'Github', level: 98 },
     
   ];
 
