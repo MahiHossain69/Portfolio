@@ -50,7 +50,7 @@ function Service() {
                   </p>
                   <div className="flex items-center justify-center">
                     <p className="mr-2 text-5xl font-semibold text-black lg:text-6xl">
-                      $20-25
+                      $100-150
                     </p>
                     <p className="text-lg text-black">/ month</p>
                   </div>
