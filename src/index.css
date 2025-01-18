@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 :root {
- 
+
     --skillBarBg: linear-gradient(45deg, #6d6868, #0f0f0f, #ffffff, #131010) !important;
 }
 
 .skillbar-title {
-  
+
     background: #ffffff !important;
-     color: black !important;
-   
+    color: black !important;
+
 }
+
 .skillbar-bar {
     background: linear-gradient(45deg, #6d6868, #0f0f0f, #ffffff, #131010);
     background: (--skillBarBgColor);
@@ -24,29 +25,147 @@
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
 }
 
 .skillbar {
-    
-   
+
+
     transition: 0.1s linear !important;
-   
+
 }
-*, ::before, ::after {
-   
+
+*,
+::before,
+::after {
+
     --tw-scale-x: 0.5 !important;
     --tw-scale-y: 0.5 !important;
-  
-   
-    
-  
-    
+
+
+
+
+
 }
 
 
+/* Small devices (mobile) */
+
+@media (max-width: 575px) {
+    #front {
+        text-align: start;
+        margin-top: 80px;
+        font-size: 25px;
+
+    }
+
+    #type {
+        text-align: center;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+
+    #bannerimg {
+        width: 200px;
+    }
+
+    #download{
+       margin: auto;
+    }
+    #mause {
+        margin-top: 135px;
+    }
+    #link{
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/* Medium devices (tablet) */
+@media(min-width:576px) and (max-width:767px) {
+    #bannerimg {
+        width: 300px;
+    }
+
+    #front {
+        margin-top: 100px;
+        text-align: start;
+        font-size: 30px;
+    }
+
+    #type {
+        font-size: 15px;
+        margin-top: 80px;
+    }
+      #download{
+        margin-top: 10px;
+    }
+    #download{
+        margin: auto;
+     }
+     #mause {
+        margin-top: 135px;
+    }
+    #link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Large devices (desktop) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #bannerimg {
+        width: 150px;
+        margin-top: -60px
+    }
+    #front {
+        margin-top: 100px;
+        text-align: start;
+        font-size: 30px;
+    }
+    #type {
+        font-size: 11px;
+        margin-top: 80px;
+    }
+    #download{
+        margin-top: -90px
+     }
+     #link {
+        display: flex;
+        justify-content: center;
+        font-size: 21px;
+    }
+
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #front {
+        margin-top: 100px;
+        text-align: start;
+        font-size: 35px;
+    }
+    #type {
+        font-size: 15px;
+        margin-top: 80px;
+    }
+    #bannerimg {
+        width: 280px;
+        margin-top: -100px;
+    }
+    #link {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    #mause {
+        margin-top: 25px;
+    }
+}
