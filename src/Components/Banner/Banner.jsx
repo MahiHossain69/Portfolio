@@ -70,7 +70,7 @@ function Banner() {
 </div>
 <div className="max-w-container mx-auto">
   <div  id='download' className=" w-[150px] h-[30px] text-center bg-black border-[1px] border-white text-white mt-[-105px]  rounded-full pt-[1px] hover:bg-white hover:text-black hover:border-[1px] hover:border-amber-400">
-    <button className='font-bold'><a href='https://bronze-halley-2.tiiny.site/'>Download CV</a></button>
+    <button className='font-bold'><a href='https://resumeon.tiiny.site/'>Download CV</a></button>
   </div>
 </div>
 
